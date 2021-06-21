@@ -53,6 +53,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 	background-image: url("../img/working_trimmed.jpg");
 	background-size: cover;
+	background-position: center;
     /* background-color: #cccccc; */
 }
 
@@ -70,7 +71,7 @@ a {
 
 #header_name {
 	color: white;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 #main {
