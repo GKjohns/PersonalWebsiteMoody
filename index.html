@@ -6,15 +6,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <title>K.AI</title>
 </head>
 <body>
-    <div id="header">
+    <div id="header" class="fade-in">
         <span id="header_name">Kyle Johnson</span>
     </div>
-    <div id="main">
+    <div id="main" class="fade-in">
         <div id="floating_card">
             <p>I'm Kyle, a Seattle-based data scientist with a passion for understanding human behavior. I currently work on translation technologies at <a href="https://ai.facebook.com/">Facebook AI Research (FAIR)</a>. Before joining FAIR, I worked in the community integrity org where I focused on counter terrorism, illicit trade, and the US 2020 election.</p>
             <br>
@@ -27,5 +28,12 @@
             </div>
         </div>
     </div>
+    <script>
+        // Hide the divs, load them in after the background_image loads
+        $('.fade-in').hide();
+        $(window).on('load', () => {
+            $('.fade-in').fadeIn(400)
+        })
+    </script>
 </body>
 </html>
