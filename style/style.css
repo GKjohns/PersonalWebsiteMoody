@@ -50,7 +50,7 @@ table {
 /* End of style reset */
 
 body {
-    font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
 	background-image: url("../img/working_trimmed.jpg");
 	background-size: cover;
 	background-position: center;
@@ -88,7 +88,7 @@ a {
 	color: white;
 	margin: 100px 40px;
 	padding: 50px;
-    opacity: .7;
+    opacity: .8;
 }
 
 #social_links {
